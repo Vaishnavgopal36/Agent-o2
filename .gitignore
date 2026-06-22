@@ -1,4 +1,22 @@
+# Local environments
 agent/
+.venv/
+env/
+
+# Python cache & artifacts
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Secrets & Configs
 .env
+
+# Benchmark reports from earlier
+benchmark_report.csv
+benchmark_report*.csv
+
+# OS & IDE
+.vscode/
+.idea/
+.DS_Store

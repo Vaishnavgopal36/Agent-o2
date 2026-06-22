@@ -1,13 +1,13 @@
 Provider,Model,Workload,TTFT (s),Total Time (s),Est. TPS,Status
-Groq,llama-3.3-70b-versatile,Fast_Routing,0.2533,0.2552,15.67,Success
-Groq,openai/gpt-oss-20b,Fast_Routing,0.4228,0.4426,9.04,Success
-Groq,meta-llama/llama-4-scout-17b-16e-instruct,Fast_Routing,0.2857,0.2887,17.32,Success
-Ollama Cloud,gpt-oss:120b-cloud,Fast_Routing,0.8147,1.6383,20.75,Success
+Groq,llama-3.3-70b-versatile,Fast_Routing,0.2704,0.2737,14.61,Success
+Groq,openai/gpt-oss-20b,Fast_Routing,0.3769,0.4598,8.7,Success
+Groq,meta-llama/llama-4-scout-17b-16e-instruct,Fast_Routing,0.1003,0.1134,44.1,Success
+Ollama Cloud,gpt-oss:120b-cloud,Fast_Routing,0.827,1.2126,32.16,Success
 Ollama Cloud,llama3.3:70b,Fast_Routing,Error,Error,Error,Failed: model 'llama3.3:70b' not found (status code: 404)
 Ollama Cloud,qwen2.5:72b,Fast_Routing,Error,Error,Error,Failed: model 'qwen2.5:72b' not found (status code: 404)
-Groq,llama-3.3-70b-versatile,Heavy_Analysis,0.4253,2.7517,366.68,Success
-Groq,openai/gpt-oss-20b,Heavy_Analysis,0.4216,2.6599,712.81,Success
-Groq,meta-llama/llama-4-scout-17b-16e-instruct,Heavy_Analysis,0.3178,1.848,382.57,Success
-Ollama Cloud,gpt-oss:120b-cloud,Heavy_Analysis,1.5331,48.214,66.08,Success
+Groq,llama-3.3-70b-versatile,Heavy_Analysis,0.3099,3.6712,265.86,Success
+Groq,openai/gpt-oss-20b,Heavy_Analysis,0.357,2.4108,557.49,Success
+Groq,meta-llama/llama-4-scout-17b-16e-instruct,Heavy_Analysis,0.0961,1.6811,416.98,Success
+Ollama Cloud,gpt-oss:120b-cloud,Heavy_Analysis,0.7364,39.5527,91.65,Success
 Ollama Cloud,llama3.3:70b,Heavy_Analysis,Error,Error,Error,Failed: model 'llama3.3:70b' not found (status code: 404)
 Ollama Cloud,qwen2.5:72b,Heavy_Analysis,Error,Error,Error,Failed: model 'qwen2.5:72b' not found (status code: 404)
